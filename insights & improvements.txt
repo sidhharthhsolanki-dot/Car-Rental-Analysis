@@ -1,0 +1,179 @@
+Key Insights
+1. Top Car Models by Bookings
+Tata Nexon (~220 bookings) is the most popular → strong customer preference for compact SUVs.
+Swift Dzire (~200) and Kia Seltos (~195) follow closely.
+Demand is SUV-heavy (Nexon, Seltos, Creta dominate).
+Maruti Alto (~185) is lowest → entry-level cars less preferred.
+
+Insight: Customers prefer mid-range, feature-rich vehicles over budget options.
+
+2. Revenue by City
+Bangalore (~2.4M) generates highest revenue.
+Pune (~2.15M) is second (your current location → strong opportunity).
+Mumbai & Delhi (~1.9M) slightly lower.
+
+Insight: Tech-driven cities (Bangalore, Pune) show higher rental demand.
+
+3. Bookings by Category
+Sedan (~350 bookings) is highest.
+Hatchback (~330) and SUV (~320) are close.
+
+Insight:
+
+Even though SUV models dominate individually, overall Sedans lead category-wise.
+Suggests business + family usage preference.
+4. Monthly Revenue Trend
+Revenue fluctuates between ~210K – 300K.
+Peaks:
+Early 2024 (~298K)
+Mid 2026 (~285K)
+Drops:
+Mid 2025 (~218K)
+Late 2026 (~212K)
+
+Insight:
+
+No consistent upward trend → unstable revenue pattern
+Likely influenced by:
+Seasonality
+Demand fluctuations
+Pricing strategy
+Key Problems Identified
+Revenue volatility
+Underperformance in budget segment
+City imbalance (heavy reliance on few cities)
+No clear growth trend
+SUV vs Sedan mismatch (model vs category demand)
+Key Improvements (Very Important for Your Project)
+1. Add Advanced KPIs (Power BI / Dashboard)
+
+Include:
+
+Revenue Growth % (MoM, YoY)
+Customer Retention Rate
+Average Booking Value
+Utilization Rate (cars rented vs available)
+
+This will make your project industry-level strong
+2. Demand Forecasting (High Impact)
+Use Python (Prophet / ARIMA)
+Predict:
+Future bookings
+Peak months
+
+Shows data science capability
+
+3. Dynamic Pricing Strategy
+Increase price during high demand months
+Offer discounts during low demand
+
+Can stabilize revenue fluctuations
+
+4. City Expansion Strategy
+Focus on:
+Pune (already strong)
+Expand to similar tier-1 tech cities
+
+Reduces dependency on Bangalore
+
+5. Fleet Optimization
+Increase inventory of:
+Tata Nexon
+Swift Dzire
+Reduce low-performing cars:
+Alto (or reposition as budget offering)
+6. Customer Segmentation
+
+Segment users into:
+
+Business travelers
+Family users
+Budget users
+
+Then personalize:
+
+Car recommendations
+Pricing
+7. Churn & Retention Analysis
+Identify:
+Repeat vs new customers
+Add loyalty programs
+8. Dashboard Improvements
+
+Enhance your dashboard with:
+
+Filters (City, Date, Car Type)
+Drill-down analysis
+Heatmaps (City vs Revenue)
+KPI cards on top
+9. Add Machine Learning (Bonus for Resume)
+Recommendation system:
+Suggest cars based on user behavior
+Classification:
+Predict high-value customers
+10. Business Storytelling (MOST IMPORTANT)
+
+Example:
+“By optimizing SUV fleet and dynamic pricing, revenue can increase by ~15–20%.
+
+1. City-Wise Revenue Analysis
+City	Total Amount (in millions)
+Bangalore	2.5
+Pune	2.0
+Mumbai	1.8
+Delhi	1.7
+Insights:
+Bangalore contributes the highest revenue (2.5M), indicating strong market presence or higher demand.
+
+Delhi has the lowest revenue among the four, suggesting potential underperformance or lower pricing/popularity.
+
+Improvements:
+Investigate Delhi’s performance – check if it’s due to lower demand, fewer drivers, or operational issues.
+
+Allocate more marketing budget to Pune and Mumbai to boost them toward Bangalore’s level.
+
+Consider city-wise pricing strategies to optimize revenue without losing customers.
+
+2. Category-Wise Bookings
+Category	Bookings
+Sedan	330
+Hatchback	320
+SUV	310
+Insights:
+Bookings are almost evenly distributed across categories.
+
+Sedan has the highest, but SUV is only slightly behind.
+
+Improvements:
+No immediate category imbalance issue, but monitor trends.
+
+If SUVs have higher margins, consider promoting them slightly more.
+
+Use dynamic pricing or incentives to balance demand across categories during peak times.
+
+3. Monthly Revenue Trends (2024–2026)
+Key Observations:
+Peak months: May–July (e.g., 2024-05: 275k, 2024-06: 278k, 2026-05: 285k, 2026-06: 282k).
+
+Drop in revenue: August–September often see dips (e.g., 2024-08: 245k, 2025-08: 235k).
+
+Recovery: October–December show moderate recovery.
+
+Sharp drop in 2026-09: 210k – lowest in the entire dataset.
+
+Improvements:
+Prepare for seasonal dips – launch promotions or campaigns in August–September.
+
+Investigate 2026-09 anomaly – was there an operational issue, policy change, or external factor?
+
+Focus on pre-monsoon and summer months (April–July) to maximize revenue with targeted offers.
+
+Implement forecasting models to anticipate dips and plan resources accordingly.
+
+4. Overall Recommendations
+Area	Recommendation
+City Strategy	Boost underperforming cities (Delhi) with localized campaigns; replicate Bangalore’s success model.
+Category Mix	Maintain balance; consider upselling higher-margin vehicles like SUVs during peak demand.
+Seasonal Planning	Increase marketing and driver incentives before peak months; run retention campaigns during low seasons.
+Data Monitoring	Track monthly revenue anomalies closely; set up alerts for significant drops.
+Forecasting	Use historical trends to predict revenue and optimize resource allocation (drivers, fleet, promotions).
