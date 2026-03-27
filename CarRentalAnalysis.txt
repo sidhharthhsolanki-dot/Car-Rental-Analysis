@@ -132,19 +132,15 @@ I generated several core analytics visuals (these are exactly the types you’d 
 Monthly revenue trend
 This is your “revenue trend / seasonality” view.
 
-<Figure size 2000x800 with 1 Axes>
 Top 10 car models by bookings
 This supports “popular car models” and inventory planning.
 
-<Figure size 2000x800 with 1 Axes>
 Revenue by city
 This supports “market performance by location” and geo expansion.
 
-<Figure size 1600x800 with 1 Axes>
 Bookings by category
 This supports “fleet mix optimization” and category-based pricing strategy.
 
-<Figure size 1400x800 with 1 Axes>
 4) Power BI: data model (star schema)
 Tables to load
 Fact
