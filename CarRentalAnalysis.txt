@@ -3,10 +3,7 @@ Entities: User_ID, Car_ID
 Dimensions: City, Car_Model, Category
 I already cleaned it and derived standard BI fields (Year, Month, Week, DayOfWeek, Amount_per_Day) and created a star-schema-friendly export.
 
-Outputs generated for you (ready for Power BI import)
-These files are saved in your workspace now:
-
-fact_bookings.csv
+Car_Rent_bookings_.csv
 dim_cars.csv
 dim_users.csv
 dim_dates.csv
@@ -149,17 +146,17 @@ dim_cars (join on Car_ID)
 dim_users (join on User_ID)
 
 Relationships
-fact_bookings[Car_ID] many-to-one dim_cars[Car_ID]
-fact_bookings[User_ID] many-to-one dim_users[User_ID]
-fact_bookings[Booking_Date] many-to-one dim_dates[Booking_Date]
+Car_rent_bookings[Car_ID] many-to-one dim_cars[Car_ID]
+Car_rent_bookings[User_ID] many-to-one dim_users[User_ID]
+Car_rent_bookings[Booking_Date] many-to-one dim_dates[Booking_Date]
 
 
 5) Power BI: DAX measures
 Create these measures in Power BI:
 
-Total Revenue = SUM(fact_bookings[Total_Amount])
-Total Bookings = COUNT(fact_bookings[Booking_ID])
-Total Rental Days = SUM(fact_bookings[Rental_Days])
+Total Revenue = SUM(Car_Rent_bookings[Total_Amount])
+Total Bookings = COUNT(Car_Rent_bookings[Booking_ID])
+Total Rental Days = SUM(Car_Rent_bookings[Rental_Days])
 
 Efficiency
 
@@ -248,8 +245,6 @@ dim_users.csv
 dim_dates.csv
 If you want, I can also bundle them into a single ZIP and create a README + SQL scripts as a complete “project export.”
 
- 
-
 ./car_rental_powerbi_package.zip
 ['dim_cars.csv', 'dim_dates.csv', 'dim_users.csv', 'fact_bookings.csv', 'powerbi_dashboard_build_spec.md', 'powerbi_dax_measures.txt']
 
@@ -300,11 +295,7 @@ This supports “market performance by location” and geo expansion.
 Bookings by category
 This supports “fleet mix optimization” and category-based pricing strategy.
 
-4) Power BI: data model (star schema)
-Tables to load
-Fact
-
-
+4) Power BI: data model
 Dimensions
 dim_dates (join on Booking_Date to Date logic — in Power BI you’ll typically create a Date column)
 dim_cars (join on Car_ID)
