@@ -302,6 +302,6 @@ dim_cars (join on Car_ID)
 dim_users (join on User_ID)
 
 Relationships 
-fact_bookings[Car_ID] many-to-one dim_cars[Car_ID]
-fact_bookings[User_ID] many-to-one dim_users[User_ID]
-fact_bookings[Booking_Date] many-to-one dim_dates[Booking_Date]
+Car_Rent_bookings[Car_ID] many-to-one dim_cars[Car_ID]
+Car_Rent_bookings[User_ID] many-to-one dim_users[User_ID]
+Car_Rent_bookings[Booking_Date] many-to-one dim_dates[Booking_Date]
