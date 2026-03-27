@@ -1,6 +1,3 @@
-1) Data layer (what we have from your file)
-Your Excel file is a booking-level fact table with these fields:
-
 Booking info: Booking_ID, Booking_Date, Rental_Days, Total_Amount
 Entities: User_ID, Car_ID
 Dimensions: City, Car_Model, Category
@@ -296,26 +293,20 @@ File → Save As → you now have your .pbix.
 If you want, I’ll also make it even more “PBIX-like”
 If you tell me you’re using Power BI Desktop (Windows), I can generate an additional Power Query (M) script that auto-builds the tables and relationships when you paste it into Power BI (so you do even less manual setup).
 
-
-
 I generated several core analytics visuals (these are exactly the types you’d embed in a report or replicate in Power BI):
 
 Monthly revenue trend
 This is your “revenue trend / seasonality” view.
 
-<Figure size 2000x800 with 1 Axes>
 Top 10 car models by bookings
 This supports “popular car models” and inventory planning.
 
-<Figure size 2000x800 with 1 Axes>
 Revenue by city
 This supports “market performance by location” and geo expansion.
 
-<Figure size 1600x800 with 1 Axes>
 Bookings by category
 This supports “fleet mix optimization” and category-based pricing strategy.
 
-<Figure size 1400x800 with 1 Axes>
 4) Power BI: data model (star schema)
 Tables to load
 Fact
@@ -326,7 +317,7 @@ dim_dates (join on Booking_Date to Date logic — in Power BI you’ll typically
 dim_cars (join on Car_ID)
 dim_users (join on User_ID)
 
-Relationships (recommended)
+Relationships 
 fact_bookings[Car_ID] many-to-one dim_cars[Car_ID]
 fact_bookings[User_ID] many-to-one dim_users[User_ID]
 fact_bookings[Booking_Date] many-to-one dim_dates[Booking_Date]
