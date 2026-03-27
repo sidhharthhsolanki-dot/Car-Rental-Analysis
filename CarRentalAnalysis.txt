@@ -24,9 +24,6 @@ Month, Week, DayOfWeek, Quarter, etc.
 A quick peek at the cleaned dataset
 The cleaned dataset head is shown here:
 
-14 cols, 5 rows returned
-Google Sheets
-
 Booking_ID
 
 User_ID
